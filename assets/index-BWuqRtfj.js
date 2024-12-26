@@ -55766,7 +55766,7 @@ function XL() {
 var JL = XL();
 const xn = Ed(JL);
 function jL(r) {
-  const { nodes: e, materials: t } = zd("/models/hacker-room.glb");
+  const { nodes: e, materials: t } = zd("./models/hacker-room.glb");
   return et.jsxs("group", {
     ...r,
     dispose: null,
