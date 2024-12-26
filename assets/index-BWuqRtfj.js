@@ -9267,7 +9267,7 @@ const ME = [
             className: "flex justify-between items-center py-5 mx-auto c-space",
             children: [
               et.jsx("a", {
-                href: "/",
+                href: "https://keithrsinclair.github.io/tesingscrollmobile/",
                 className: "w-16",
                 children: et.jsx("img", { src: wE, alt: "Logo" }),
               }),
