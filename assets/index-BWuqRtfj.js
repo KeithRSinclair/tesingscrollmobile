@@ -9233,7 +9233,7 @@ const ME = [
       ? [-11, -10, -1]
       : [-10, -11, -1],
   }),
-  wE = "/logo.png",
+  wE = "./logo.png",
   CE = () => {
     const [r, e] = Pe.useState(!1),
       t = () => {
@@ -55766,7 +55766,7 @@ function XL() {
 var JL = XL();
 const xn = Ed(JL);
 function jL(r) {
-  const { nodes: e, materials: t } = zd("/models/-room.glb");
+  const { nodes: e, materials: t } = zd("/models/hacker-room.glb");
   return et.jsxs("group", {
     ...r,
     dispose: null,
@@ -56311,7 +56311,7 @@ const aD = (r) => `not ${r}`,
             className: "grid-container",
             children: [
               et.jsx("img", {
-                src: "/assets/grid1.png",
+                src: "./assets/grid1.png",
                 alt: "grid-1",
                 className: "w-full sm:h-[276px] h-fit object-contain",
               }),
